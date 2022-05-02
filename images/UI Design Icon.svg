@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="196.233" height="138.998" viewBox="0 0 196.233 138.998">
+  <g id="UI_Design_Icon" data-name="UI Design Icon" transform="translate(-706 -902.5)">
+    <g id="Rectangle_73" data-name="Rectangle 73" transform="translate(783 1013)" fill="#2d4059" stroke="#707070" stroke-width="1">
+      <rect width="43" height="17" stroke="none"/>
+      <rect x="0.5" y="0.5" width="42" height="16" fill="none"/>
+    </g>
+    <g id="Rectangle_72" data-name="Rectangle 72" transform="translate(733 914)" fill="#2d4059" stroke="#707070" stroke-width="1">
+      <rect width="143" height="92" stroke="none"/>
+      <rect x="0.5" y="0.5" width="142" height="91" fill="none"/>
+    </g>
+    <path id="laptop_chromebook_black_24dp" d="M188.056,125.645H179.88V19.353A16.4,16.4,0,0,0,163.527,3H32.705A16.4,16.4,0,0,0,16.353,19.353V125.645H8.176a8.176,8.176,0,1,0,0,16.353h179.88a8.176,8.176,0,1,0,0-16.353Zm-77.675,0H85.852a4.088,4.088,0,1,1,0-8.176h24.529a4.088,4.088,0,1,1,0,8.176Zm53.146-24.529H32.705V27.529a8.2,8.2,0,0,1,8.176-8.176H155.351a8.2,8.2,0,0,1,8.176,8.176Z" transform="translate(706 899.5)" fill="#ffd460"/>
+  </g>
+</svg>

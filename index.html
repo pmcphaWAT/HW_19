@@ -1,82 +1,101 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Homework 17 Solved</title>
-    <link href="css/style.css" type="text/css" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <img src="images/logo.png">
-      <ul>
-        <li>ABOUT</li>
-        <li>SKILLS</li>
-        <li>WORK</li>
-        <li>CONTACT</li>
-      </ul>
-    </header>
-    <section class="heroImg">
-      <div class="content">
-        <img src="images/placeholder_picture.png">
-        <h1>Your Name</h1>
-        <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua.</p>
-        <button>Download Resume</button>
-      </div>
-    </section>
-    <h1 class="heading">My UX Skills</h1>
-    <section class="flexContainer">
-      <div>
-        <img src="images/placeholderSkill.png">
-        <h3>User Research</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
-      </div>
-      <div>
-        <img src="images/placeholderSkill.png">
-        <h3>User Interface Design</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
-      </div>
-      <div>
-        <img src="images/placeholderSkill.png">
-        <h3>Web Development</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
-      </div>
-    </section>
 
-    <section class="myWork">
-      <h1 class="heading">My Work</h1>
-      <div class="workGrid">
-        <div class="img1">
-          <img src="images/placeholder_picture.png">
-        </div>
-        <div class="content1">
-          <h4>User Research</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <button>View Project</button>
-        </div>
-        <div class="img2">
-          <img src="images/placeholder_picture.png">
-        </div>
-        <div class="content2">
-          <h4>User Research</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <button>View Project</button>
-        </div>
-        <div class="img3">
-          <img src="images/placeholder_picture.png">
-        </div>
-        <div class="content3">
-          <h4>User Research</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <button>View Project</button>
-        </div>
+<head>
+  <title>Homework 17 Solved</title>
+  <link href="css/styles.css" type="text/css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/app.js"></script>
+
+
+
+</head>
+
+<body>
+  <header>
+    <img class="logo-image" src="images/logo.svg">
+    <ul>
+      <li class="about">ABOUT</li>
+      <li class="skills">SKILLS</li>
+      <li class="work">WORK</li>
+      <li class="contact">CONTACT</li>
+    </ul>
+  </header>
+  <section>
+    <div id=particles-js></div>
+    <script type="text/javascript" src="js/particles.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <div class="content">
+      <img src="images/hi-def-self-photo.png">
+      <h1 class="my-name">Peter McPhail</h1>
+      <h3 class="title-heading">UX Designer</h3>
+      <p class="my-about">I'm passionate about creating positive experiences focused on PEOPLE.</p>
+      <button class="resume-button">Download Resume</button>
+    </div>
+
+  </section>
+  <h1 id="skills-section" class="heading">My UX Skills</h1>
+  <section class="flexContainer">
+    <div>
+      <img src="images/User Research Icon.svg">
+      <h3>User Research</h3>
+      <p>The most important aspect of design is user research. I believe good product design is driven by insightful
+        qualitative and quantitative research. I've performed research through various outlets including surveys and
+        interviews.</p>
+    </div>
+    <div>
+      <img src="images/UI Design Icon.svg">
+      <h3>User Interface Design</h3>
+      <p>One of my favorite aspects of the UX design process is ideating and prototyping designs. I start my UI designs
+        by simple pen and pencil before producing low fidelity wireframes. Lastly, I evolve the low fidelity designs
+        into high fidelity interactive prototypes.</p>
+    </div>
+    <div>
+      <img src="images/Testing Icon.svg">
+      <h3>Web Development</h3>
+      <p>In order to validate my designs and ensure that they meet user expectations, usability testing is key. I
+        perform various forms of testing including guerilla testing, 5-second testing and, AB testing.</p>
+    </div>
+  </section>
+
+  <section class="myWork">
+    <h1 class="heading">My Work</h1>
+    <div class="workGrid">
+      <div class="img1">
+        <img src="images/hosted-image.png">
       </div>
-    </section>
-    <footer>
-      <ul>
-        <li>ABOUT</li>
-        <li>SKILLS</li>
-        <li>WORK</li>
-        <li>CONTACT</li>
-      </ul>
-    </footer>
-  </body>
+      <div class="content1">
+        <h2>Hosted</h2>
+        <p>A mobile first design approach that seeks to provide adventurous travelers with an exciting and culturally immersive experience.</p>
+        <button class=hosted-button>View Project</button>
+      </div>
+      <div class="img2">
+        <img src="images/humane-image.png">
+      </div>
+      <div class="content2">
+        <h2>Mower County Humane Society</h2>
+        <p>A website redesign with the goal of improving the online pet adoption experience.</p>
+        <button class="humane-society-button">View Project</button>
+      </div>
+      <div class="img3">
+        <img src="images/pi-image.png">
+      </div>
+      <div class="content3">
+        <h2>City of Pine Island</h2>
+        <p>A website redesign focused on information architecture, navigation, and responsive design.</p>
+        <button class="pine-island-button">View Project</button>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <ul>
+      <li class="about">ABOUT</li>
+      <li class="skills">SKILLS</li>
+      <li class="work">WORK</li>
+      <li class="contact">CONTACT</li>
+    </ul>
+  </footer>
+</body>
+
 </html>
