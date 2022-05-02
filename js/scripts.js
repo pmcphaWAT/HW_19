@@ -25,7 +25,6 @@ $(document).ready(function () {
     //eventually change so that it downloads the resume page right away
     $('button').click(function(){
         var className = '.' + $(this).attr('class');
-        alert(className);
         if (className == '.resume-button') {
             window.open('files/resume.pdf','_blank');
         }
